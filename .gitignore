@@ -1,0 +1,4 @@
+*.log
+critical_files.txt
+hashes_baseline.json
+!test_data/
