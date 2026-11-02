@@ -3,3 +3,9 @@ critical_files.txt
 hashes_baseline.json
 !test_data/
 .idea/
+__pycache__/
+critical_files_list.txt
+dummy.txt
+integrity_report.json
+hashes_baseline.json
+*.log
