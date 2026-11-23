@@ -1,11 +1,32 @@
+Виртуальное окружение и кэш Python
+
+.venv/
+venv/
+pycache/
+*.py[cod]
+*$py.class
+
+Настройки IDE
+
+.idea/
+.vscode/
+
+Рабочие артефакты, логи и защищённый кэш эталонов
+
+.baseline_cache/
+.hash_cache/
 *.log
+*.tmp
+critical_files_list.txt
 critical_files.txt
 hashes_baseline.json
-!test_data/
-.idea/
-__pycache__/
-critical_files_list.txt
-dummy.txt
 integrity_report.json
-hashes_baseline.json
-*.log
+
+Локальные тестовые файлы в корне проекта
+
+dummy.txt
+test_file.txt
+
+Сохраняем папку с примерами тестовых данных
+
+!test_data/
